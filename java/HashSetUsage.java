@@ -12,6 +12,14 @@ public class HashSetUsage {
         set01.add(30);
         set01.add(40);
 
-        System.out.println(set01);
+//        System.out.println(set01);
+
+//        search or look up any value
+        if(set01.contains(40)) {
+            System.out.println("Number is in the set");
+        }else {
+            System.out.println("Number is not in the set");
+        }
+
     }
 }
