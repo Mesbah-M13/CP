@@ -13,11 +13,17 @@ public class HashMapUsage {
         countryMap.put("China",200);
         System.out.println(countryMap);
 
-//        search or lookup operation for any pair using map_name.containsKey
+        String country = "Bangladesh";
+
+//        search or lookup operation for any pair using map_name.containsKey()
         if(countryMap.containsKey("Bangladesh")){
-            System.out.println("Bangladesh is there");
+            System.out.println("Key is in the map");
         }else{
             System.out.println("Not included");
+
         }
+//      to find out the value related to the key use get()
+        System.out.println("Population of " + country + " is :" + countryMap.get("Bangladesh"));
+        System.out.println(countryMap.get("Iraq"));
     }
 }
