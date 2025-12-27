@@ -14,12 +14,17 @@ public class HashSetUsage {
 
 //        System.out.println(set01);
 
-//        search or look up any value
+//        search or look up any value using .contains()
+      /*
         if(set01.contains(40)) {
             System.out.println("Number is in the set");
-        }else {
+        }if(!set01.contains(33)) {
             System.out.println("Number is not in the set");
         }
 
+       */
+//         remove an element from the set
+        set01.remove(30);
+        System.out.println(set01);
     }
 }
