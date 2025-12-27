@@ -40,5 +40,11 @@ public class HashMapUsage {
             System.out.println(d.getKey() + " : " + d.getValue());
 //            System.out.println(d.getValue());
         }
+
+//        iteration in hashmap using keySet()
+        Set<String> keys = countryMap.keySet();
+        for(String val: keys){
+            System.out.println(val + " value is > " + countryMap.get(val));
+        }
     }
 }
