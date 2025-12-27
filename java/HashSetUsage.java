@@ -14,6 +14,9 @@ public class HashSetUsage {
 
 //        System.out.println(set01);
 
+//        print the size of a hashset
+        System.out.println("My hashset size is : " + set01.size());
+
 //        search or look up any value using .contains()
       /*
         if(set01.contains(40)) {
@@ -25,6 +28,11 @@ public class HashSetUsage {
        */
 //         remove an element from the set
         set01.remove(30);
-        System.out.println(set01);
-    }
+        if(!set01.contains(30)){
+            System.out.println("30 is deleted");
+        }
+        System.out.println("New value of hashset is : " + set01);
+        System.out.println("New size of my hashset is : " + set01.size());
+
+        }
 }
