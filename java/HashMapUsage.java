@@ -44,7 +44,12 @@ public class HashMapUsage {
 //        iteration in hashmap using keySet()
         Set<String> keys = countryMap.keySet();
         for(String val: keys){
-            System.out.println(val + " value is > " + countryMap.get(val));
+//            System.out.println(val + " value is > " + countryMap.get(val));
         }
+
+//        remove value from a hashmap
+        countryMap.remove("China");
+
+        System.out.println(countryMap);
     }
 }
