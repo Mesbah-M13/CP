@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class HashSetUsage {
     public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class HashSetUsage {
 //        System.out.println(set01);
 
 //        print the size of a hashset
-        System.out.println("My hashset size is : " + set01.size());
+       // System.out.println("My hashset size is : " + set01.size());
 
 //        search or look up any value using .contains()
       /*
@@ -29,10 +30,20 @@ public class HashSetUsage {
 //         remove an element from the set
         set01.remove(30);
         if(!set01.contains(30)){
-            System.out.println("30 is deleted");
+        //    System.out.println("30 is deleted");
         }
-        System.out.println("New value of hashset is : " + set01);
-        System.out.println("New size of my hashset is : " + set01.size());
+        //System.out.println("New value of hashset is : " + set01);
+        //System.out.println("New size of my hashset is : " + set01.size());
+
+//       create hashset iterator *** VVI
+        Iterator it = set01.iterator();
+
+//      iterator has 2 properties for iteration : 1. next() 2. hasNext() ***VVI
+        System.out.println("Printing iterated values ");
+
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
 
         }
 }
