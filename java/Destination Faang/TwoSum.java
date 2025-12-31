@@ -19,4 +19,12 @@ public class TwoSum {
 
         return new int[] {}; // no solution case
     }
+
+    public static void main(String[] args) {
+        int[] nums = {2, 7, 11, 15, 3};
+        int target = 14;
+
+        int[] result = twoSum(nums, target);
+        System.out.println(result[0] + ", " + result[1]);
+    }
 }
