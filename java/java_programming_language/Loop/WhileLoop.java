@@ -24,12 +24,12 @@ public class WhileLoop {
 
 // 🧾 Print "Hello World" 10 times
 
-public clwhile(nass WhileLoop {
+public class WhileLoop {
     public static void main(String[] args) {
-        int n =10 ;
-        >0) {
-            System.out.println("Hello World"+" "+n);
-            n--;
+        int count = 1 ;
+        while(count<=10) {
+            System.out.println("Hello World"+" "+count);
+            count++;
         }
     }
 }
