@@ -10,16 +10,33 @@
 
 // find the sum of n natural numbers
 
+//public class DoWhile {
+//    public static void main(String[] args) {
+//
+//        int n = 4;
+//        int res = 0;
+//
+//        while (n >=0) {
+//        res = res + n;
+//        n--;
+//        }
+//        System.out.println(res);
+//        }
+//}
+
+import java.util.*;
+
 public class DoWhile {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        int n = 4;
-        int res = 0;
+        int n = sc.nextInt();
+        int sum = 0;
 
-        while (n >=0) {
-        res = res + n;
-        n--;
+        for (int i = 0; i <= n; i++) {
+            sum = sum + i;
         }
-        System.out.println(res);
-        }
+        System.out.println(sum);
+
+    }
 }
