@@ -5,7 +5,7 @@ public class BestTimetoBuyNSell {
         int min = prices[0];
 
         for (int i = 0; i < prices.length; i++) {
-          if(prices[i]< min){
+            if(prices[i]< min){
                 min = prices[i];
             }
             profit = Math.max(profit,prices[i] - min);
