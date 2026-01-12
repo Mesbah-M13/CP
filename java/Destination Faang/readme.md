@@ -9,3 +9,6 @@ This repository contains solutions to selected LeetCode problems for coding prac
 
 ## Problem 2: Contains Duplicate
 **LeetCode #217** https://leetcode.com/problems/contains-duplicate/
+
+## Problem 3: Trapping Rain Water
+**LeetCode #217** https://leetcode.com/problems/trapping-rain-water/description/
